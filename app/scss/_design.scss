@@ -28,3 +28,11 @@
 .design__two{
     background-image: url(../images/design__img\ 2.jpg);
 }
+
+.design__three{
+    background-image: url(../images/design__img\ 3.jpg);
+    & .design__content{
+        left: 10%;
+        right: 0;
+    }
+}
