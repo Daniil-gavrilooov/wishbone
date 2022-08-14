@@ -48,3 +48,12 @@
         color: $brown;
     }
 }
+
+@media (max-width: 900px) {
+    .process{
+        &__content{
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    }
+}
