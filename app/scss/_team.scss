@@ -1,0 +1,49 @@
+.team {
+    padding: 100px 0;
+    &__inner {
+        display: flex;
+        align-items: start;
+        gap: 35px;
+        margin-left: 40px;
+    }
+
+    &__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 14px;
+    }
+
+    &__text {
+        font-size: 15px;
+        color: $brown;
+        max-width: 358px;
+        margin-bottom: 41px;
+    }
+
+    &__btn {
+        letter-spacing: 0.4px;
+        color: $black;
+        margin-left: 20px;
+    }
+
+    &__name {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 45px;
+        grid-column-gap: 130px;
+
+        & .team__item:nth-child(2) .about__name::before{
+            background-image: url(../images/name__img\ 2.jpg);
+        }
+        & .team__item:nth-child(3) .about__name::before{
+            background-image: url(../images/name__img\ 3.jpg);
+        }
+        & .team__item:nth-child(4) .about__name::before{
+            background-image: url(../images/name__img\ 4.jpg);
+        }
+        & .team__item:nth-child(5) .about__name::before{
+            background-image: url(../images/name__img\ 5.jpg);
+        }
+    }
+}
