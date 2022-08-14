@@ -1,0 +1,47 @@
+.about {
+    padding: 100px 0;
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 133px;
+    }
+
+    &__title {
+        font-size: 32px;
+        line-height: 38px;
+        color: $liteBlack;
+    }
+
+    &__text {
+        max-width: 493px;
+        margin-bottom: 10px;
+    }
+
+    &__name{
+        padding-left: 114px;
+        padding-top: 30px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 84px;
+            height: 84px;
+            left: 0;
+            top: 12%;
+            background-image: url(../images/about__img.jpg);
+        }
+    }
+
+    &__name-text {
+        font-size: 17px;
+        line-height: 26px;
+        color: $black;
+
+        & + .about__name-text {
+            font-size: 14px;
+            line-height: 14px;
+            color: $brown;
+        }
+    }
+}
