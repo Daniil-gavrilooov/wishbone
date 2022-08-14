@@ -1,0 +1,87 @@
+.header {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        padding-left: 15px;
+    }
+
+    &__burger-menu {
+        display: flex;
+        align-items: center;
+        gap: 31px;
+    }
+
+    &__menu-list {
+        display: flex;
+        gap: 31px;
+        align-items: center;
+    }
+
+    &__menu-link {
+        font-size: 15px;
+        color: $black;
+    }
+
+    &__top-button {
+        padding: 11px 20px;
+        background-color: $black;
+        border-radius: 14px;
+    }
+
+    &__top-btn {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: $white;
+    }
+
+    &__burger-btn {
+        display: none;
+    }
+
+    &__content {
+        background-color: $liteWhite;
+        padding-top: 139px;
+        padding-bottom: 128px;
+        position: relative;
+
+    }
+
+    &__img{
+        position: absolute;
+        content: '';
+        right: 0;
+        bottom: 0;
+    }
+    &__overhead {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $brown;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 64px;
+        line-height: 70px;
+        color: $black;
+        max-width: 417px;
+        margin-bottom: 18px;
+    }
+
+    &__text {
+        max-width: 509px;
+        margin-bottom: 41px;
+    }
+
+    &__btn {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: $black;
+        padding-left: 24px;
+    }
+}
