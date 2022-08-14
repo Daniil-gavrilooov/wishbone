@@ -1,0 +1,26 @@
+.design {
+    background-image: url(../images/design__img\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    &__content {
+        position: absolute;
+        content: '';
+        right: 10%;
+        top: 300px;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $liteBlack;
+    }
+
+    &__description{
+        color: $brown;
+        max-width: 285px;
+    }
+}
