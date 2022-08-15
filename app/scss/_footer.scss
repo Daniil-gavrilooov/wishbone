@@ -1,0 +1,22 @@
+.footer {
+    padding: 60px 0;
+    background-color: $whitebg;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 20px;
+        color: $brown;
+        margin-top: 20px;
+    }
+
+    &__social-list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
