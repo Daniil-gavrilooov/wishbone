@@ -22,9 +22,29 @@
         max-width: 569px;
     }
 
-    &__btn{
+    &__btn {
         padding-right: 18px;
         letter-spacing: 0.4px;
         color: $black;
+    }
+}
+
+@media (max-width: 750px) {
+    .offer {
+        &__inner {
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .offer {
+        &__title {
+            font-size: 20px;
+            line-height: 24px;
+        }
     }
 }
