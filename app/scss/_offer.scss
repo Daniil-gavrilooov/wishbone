@@ -1,0 +1,30 @@
+.offer {
+    padding: 100px 0;
+    background-color: $beige;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__overhead {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $brown;
+    }
+
+    &__title {
+        font-size: 40px;
+        line-height: 42px;
+        color: $black;
+        max-width: 569px;
+    }
+
+    &__btn{
+        padding-right: 18px;
+        letter-spacing: 0.4px;
+        color: $black;
+    }
+}
