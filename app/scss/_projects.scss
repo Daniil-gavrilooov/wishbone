@@ -2,9 +2,6 @@
     padding: 100px 0;
     background-color:   $whitebg;
 
-    &__head {
-        // margin-left: 35px;
-    }
     &__title {
         font-size: 39px;
         line-height: 42px;
@@ -24,7 +21,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // margin-left: 35px;
         margin-bottom: 53px;
         gap: 18px;
     }
